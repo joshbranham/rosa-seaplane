@@ -20,8 +20,8 @@ platformApi:
   app:
     name: platform-api
     image:
-      repository: quay.io/redhat-user-workloads/rosa-tenant/rosa-seaplane-api
-      tag: "f9871570f2207d94f6aa3ecf7ff6c901365f3fcc@sha256:f9114a8e5e0d250f4509e1ca3fb64ce15be8f5e1c306ff28dadef90f85d7bc93"
+      repository: quay.io/jbranham/rosa-seaplane-api
+      tag: "channel-support"
       pullPolicy: Always
 
     # Application arguments
